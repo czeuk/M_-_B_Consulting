@@ -1,0 +1,38 @@
+body{
+    background-image: url("images/1.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tech{
+    background-color: #1F5194;
+    border-radius: 50px;
+    font-family: Times;
+}
+
+.agro{
+    background-color: #3E0D52;
+    border-radius: 50px;
+    font-family: Times;
+}
+
+/* .les_boutons{
+    margin-top: % !important;
+} */
+
+.titre{
+    margin-left: 40% !important;
+    font-size: 85px !important;
+    font-weight: bolder;
+    /* align-items: center; */
+    color: aliceblue ;
+    /* padding: 5%; */
+}
+
+.titre1{
+    margin-left: 40% !important;
+    font-size: 85px !important;
+    font-weight: bolder;
+    margin-left: 33% !important;
+    color: aliceblue ;
+}
