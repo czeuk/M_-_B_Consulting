@@ -71,12 +71,19 @@ body{
 }
 
 body{
-    background-color: #1d1103;
+    background-color: #382005;
 }
 
 .service_item{
     opacity: 0.7;
     background-color: rgb(211, 211, 11);
+}
+
+hr{
+    z-index: 5;
+    color: aliceblue !important;
+    font-weight: bold;
+    border: 0.7px solid white !important;
 }
 
 .icone{
