@@ -1,11 +1,11 @@
 .title_content{
-    margin: 15px auto ;
+    margin: auto 10px ;
     width: 100%;
 }
 
 .acceuil{
+    display: flex;
     align-items: center ;
-    display: flex ;
 }
 
 .titre {
@@ -16,6 +16,15 @@
 .titre h1{
     font-size: 50px;
     font-weight: bold;
+}
+
+h1{
+    font-size: 3rem !important;
+    /* font-weight: 800 !important; */
+}
+
+body{
+    background-color: #3E0D52;
 }
 
 .button{
@@ -45,6 +54,35 @@ a:hover{
         width: 50% !important;
     }    
 }
+
+.my_carrousel{
+    position: relative;
+}
+
+.icon_btn{
+    background-color: #3E0D52;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.btn_agro{
+    background-color: #3E0D52;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.card_team{
+    border-radius: 40px ;
+    height: 500px !important;
+    width : 300px;
+}
+
+.image_team{
+    border-radius: 13% 13% 0 0 ;
+    height: 300px;
+}
+
 
 
 

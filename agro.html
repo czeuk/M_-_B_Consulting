@@ -6,11 +6,13 @@
         <title>Document</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/agro.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+    <nav class="navbar navbar-expand-lg  agro_nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand text-white" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,57 +32,59 @@
         </div>
     </nav>
 
-    <div class="container-fluid acceuil" style="flex-direction : column; position:  fixed ; height : 90vh; background-image : url(images/6.jpg) !important; background-color:rgba(0, 0, 0, 0.3) ; background-size: 100% !important; background-repeat: no-repeat !important;">
-        <div class="row text-light w-50 m-auto text-center">
-            <h1>Un gran titre ici pour tout et ni'importe quoi qui soit important</h1>
+    <div class="container-fluid acceuil" style="flex-direction : column; position:  relative ; height : 100vh; background-image : url(images/6.jpg) !important; background-color:rgba(0, 0, 0, 0.3) ; background-size: 100% !important; background-repeat: no-repeat !important;">
+        <div class="row text-light w-50 m-auto text-center gig_title py-2">
+            <h1>Étude scientifique des problèmes Agricoles</h1>
         </div>
 
         <div class="row text-light w-50 m-auto text-center">
             <small class="my-4">Un gran titre ici pour tout et ni'importe quoi qui soit important</small>
         </div>
         
-        <div class="container m-4">
-            <div class="row">
-                <div class="col-md-3 ">
-                  <div class="card bg-warning arrondi">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <a href="#" class="btn">Go somewhere</a>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 ">
-                  <div class="card bg-warning arrondi">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 ">
-                  <div class="card bg-warning arrondi">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3 ">
-                  <div class="card bg-warning arrondi">
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
+        <div class="container mx-auto">
+            <div class="row mt-5">
+              <h3 class="text-center text-light">Nos services</h3>
+              <hr class="text-white mx-auto w-50 border-4">
             </div>
-            <div class="row text-light w-50 m-auto p-5">
-                <a class="button_large btn m-auto" href="">Quelque chose ici aussi</a>
+            
+            <div class="row ours_services">
+                <div class="col-md-3">
+                  <div class="card service_item arrondi">
+                    <div class="card-body">
+                      <h5 class="card-title text-center"><i class="fa-solid fa-tractor icone"></i></h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="card service_item arrondi">
+                    <div class="card-body">
+                      <h5 class="card-title text-center"><i class="fa-solid fa-oil-well icone"></i></h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="card service_item arrondi">
+                    <div class="card-body">
+                      <h5 class="card-title text-center"><i class="fa-solid fa-industry icone"></i></h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="card service_item arrondi">
+                    <div class="card-body">
+                      <h5 class="card-title text-center "><i class="fa-solid fa-solar-panel icone"></i></h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row text-light w-50 m-auto p-5">
+                  <a class="button_large btn m-auto" href="">Contacter nous</a>
+              </div>
             </div>
+
         </div>
         
     </div>

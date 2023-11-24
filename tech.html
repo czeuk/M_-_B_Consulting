@@ -4,108 +4,200 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tech.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Document</title>
 </head>
+<style>
+  #bouton:hover{
+background-color: #3E0D52 !important;
+}
+</style>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg fixed-top text-white">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <!-- <img src="images/.jpg" class=" image img-fluid" alt="..." style="border-radius: 05% !important;"> -->
+          <a class="navbar-brand text-white" href="#">LOGO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#services">NOS SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" aria-current="page" href="#contact">CONTACTEZ-NOUS</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
-    <div class="container">
+      <br><br>
+    <div class="container mb-5 mt-5">
         <div class="row m-3 w-100">
             <div class="col-md-6">
-                <div class="card border-0">
+                <div class="title card border-0 bg-light p-3">
                     <div class="card-body">
-                      <h1 class="card-title">Card title</h1>
-                      <h1 class="card-subtitle mb-2 text-muted">Card subtitle</h1>
-                      <p class="fs-2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="card-link-center">Card link</a>
+                      <h1 class="card-title text-center">TECHNOLOGIE</h1>
+                      <p class="fs-3">L'innovation vous intéresse? <br>
+                         Nous vous offrons par le biai des technologiesde l'information de nouveaux horizons 
+                         avec des solutions pour améliorer votre vie quotidienne. </p>
+                    <!-- <a href="#" class="card-link-center">Card link</a> -->
                     </div>
                   </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 ml-2">
                 <div class="text-center d-flex">
-                    <img src="images/2.jpg" class=" image img-fluid" alt="..." style="border-radius: 05% !important;">
+                    <img src="images/14.jpg" class=" image img-fluid" alt="..." style="border-radius: 05% !important;">
                 </div>
             </div>
         </div>
     </div>
-    <br><br><br>
-    <div class="container-fluid">
+
+    <hr>
+    <div class="container-fluid mb-5" id="services">
+      <h2 class="text-center"> NOS SERVICES</h2>
+    
+       <br>
         <div class="row">
             <div class="col-md-3">
-               <div class="card border-1">
-                <img src="images/vue-face-femme-recolte.jpg" class="card-img-top" alt="...">
+               <div class="card services border-1">
+                <img src="images/13.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-center">Installation et Maintenance Réseau</h5>
+                  <p class="card-text">La maintenance du réseau informatique permet d'ajuster le 
+                    réseau et sa configuration en fonction des évolutions.</p>
+                  <br>
+                  <a href="#" class="btn btn-success">En-savoir plus</a>
                 </div>
               </div>
             </div>
             <div class="col-md-3">
-               <div class="card border-1">
-                <img src="images/vue-face-femme-recolte.jpg" class="card-img-top" alt="...">
+               <div class="card services border-1">
+                <img src="images/11.jpg" height="222" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-center">Etude, Réalisation et Maintenance des Installations électrique et Solaire</h5>
+                  <p class="card-text">Le but d'une installation solaire photovoltaïque est de transformer 
+                    l'énergie du soleil en électricité utilisable pour toute votre maison.</p>
+                  <br>
+                  <a href="#" class="btn btn-success">En-savoir plus</a>
                 </div>
               </div>
             </div>
             <div class="col-md-3">
-               <div class="card border-1">
-                <img src="images/vue-face-femme-recolte.jpg" class="card-img-top" alt="...">
+               <div class="card services border-1">
+                <img src="images/7.jpg" class="card-img-top" height="245" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-center">Conseil en équipements électroniques</h5>
+                  <p class="card-text">Un appareil électronique est un objet qui peut effectuer une ou des tâches en
+                   traitant des informations codées sous la forme de signaux électriques. </p>
+                  <br>
+                  <a href="#" class="btn btn-success">En-savoir plus</a>
                 </div>
               </div>
             </div>
             <div class="col-md-3">
-               <div class="card border-1">
-                <img src="images/vue-face-femme-recolte.jpg" class="card-img-top" alt="...">
+               <div class="card services border-1">
+                <img src="images/9.jpg" class="card-img-top" height="243" alt="...">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <h5 class="card-title text-center">Formations en électroniques</h5>
+                  <p class="card-text">L'électronique a pour objet le traitement par des composants matériels du signal électrique 
+                    et la distribution de la puissance électrique</p>
+                  <br><br>
+                  <a href="#" class="btn btn-success">En-savoir plus</a>
                 </div>
               </div>
             </div>
         </div>
     </div>
-    <br><br><br>
-    <div class="container-fluid">
+  <hr>
+    <div class="container-fluid" id="contact">
+      <h2 class="text-center"> NOUS CONTACTER </h2> <br>
 
-    </div>
+      <div class="container-fluid w-50 text-center  mb-5">
+        <a id="bouton" href="mailto:alinepevoubou@gmail.com" class="button bg-success rounded-pill text-white fs-5 text-decoration-none p-3 mb-5">
+          Envoyez un mail <i class="fa-solid fa-paper-plane"></i>
+        </a>
+     </div>
+    </div>  
+
+
+    <footer class="justify-content-end text-light"  style="background-color: #1F5194;">
+      <!-- <div class="container">
+          <div class="row">
+              <div class="col-md-4 pt-1">
+                  <a class="link" href="#"><img src="{{ asset('images/logo5.png') }} " class="img-fluid " style="align-items: flex-start;"></a>
+                  <span class="me-4 d-flex justify-content-start">
+                      <ul class="list-inline" style="margin-left:1%; padding-top:2px;" >
+                          <li class="list-inline-item m-2"><a class="text-white" href="https://www.facebook.com/Communaut%C3%A9-Utecq-104178608724918/" ><h4><i class="fa-brands fa-facebook-f fs-5"></i></h4></a></li>
+                          <li class="list-inline-item m-2"><a class="text-white" href="https://twitter.com/CommunityUtecq"><h4><i class="fa-brands fa-twitter fs-5"></i></h4></a></li>
+                          <li class="list-inline-item m-2"><a class="text-white" href="https://cm.linkedin.com/company/utecq"><h4><i class="fa-brands fa-linkedin fs-5"></i></h4></a></li>
+                      </ul>    
+                  </span>
+              </div>
+
+                  <div class="col-md-4 p-4 d-felx justify-content-center align-items-center">
+                      <p >
+                          <h2 class="fs-3 fw-bold">aaaaaaaaa</h2> 
+                      </p>   
+
+                      <p class="py-2 fs-6">
+                          <a href="#" class=" text-light"  style="text-decoration:none">bbbbbbbbbb</a>
+                      </p>
+
+
+                      <p class="py-2 fs-6">
+                          <a href="#" class=" text-light"  style="text-decoration:none">cccccccccccc</a>
+                      </p>
+
+                      <p class="py-2 fs-6">
+                          <a href="#" class=" text-light"  style="text-decoration:none">ddddddddddd</a>
+                      </p>
+
+                      <p class="py-2 fs-6">
+                          <a href="#" class=" text-light"  style="text-decoration:none">eeeeeeeeee</a>
+                      </p>
+                  </div>
+
+                  <div class="col-md-4 pt-4" >
+                      <p>
+                              <h3 class="fw-bold fs-3"><a href="#" class=" text-light"  style="text-decoration:none">eeeeeeeeeeee</a></h3>
+                      </p>
+                      <p class="py-2 fs-6">
+                              <a href="#" class=" text-light"  style="text-decoration:none">fffffffff</a>
+                      </p class="py-2 fs-6">
+                      <p>
+                              <a href="#" class=" text-light"  style="text-decoration:none">ggggggggggg</a>
+                      </p>
+                      <p class="py-2 fs-6">
+                              <a href="#" class=" text-light"  style="text-decoration:none">hhhhhhhhhh</a>
+                      </p>
+                  </div>
+              </div>
+
+          </div> -->
+     
+          <!-- copyright -->
+          <div class="container-fluid text-center " style="background-color: rgba(0, 0, 0, 0.2);">
+              <a class="text-white ff-verdona fs-4 fw-bold" href="#">M & B Consulting</a>
+          </div>
+
+          <!-- <div class="row">
+            <div class="col-md-6 text-center">
+               <h4>Nos pages</h4>
+                <a href="">Nos services</a><br>
+                <a href="">Contactez-nous</a>
+
+            </div>
+            <div class="col-md-6 text-center">
+              <h4>Informations</h4>
+              <a href=""><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+          </div> -->
+      </div>
+      
+  </footer>
+
 </body>
 </html>
