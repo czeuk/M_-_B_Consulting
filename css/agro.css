@@ -36,3 +36,21 @@ body{
     margin-left: 33% !important;
     color: aliceblue ;
 }
+
+.arrondi{
+    border-radius: 0px;
+}
+
+.button_large{
+    background-color: aliceblue;
+    color: #1d1d1d;
+    max-width: 350px;
+    border-radius: 10px;
+    text-decoration: none;
+    height: 50px;
+    padding: 10px 5px 10px;
+}
+
+.card-text :hover{
+    display: block;
+}

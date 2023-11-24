@@ -1,30 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/agro.css">
+    </head>
 <body>
-    <div class="container-fluid image" style="height: 650px; background-image: url(images/4.png) !important; background-color:rgba(0, 0, 0, 0.2) ; background-size: 100% !important;">
-        
-        <div class="row pt-5">
-            <div class="col-12">
-                <h1 class="titre">M & B</h1>
-            </div>
-            <div class="col-12">
-                <h1 class="titre1"> Consulting </h1>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item px-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item px-2">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid acceuil" style="flex-direction : column; position:  fixed ; height : 90vh; background-image : url(images/6.jpg) !important; background-color:rgba(0, 0, 0, 0.3) ; background-size: 100% !important; background-repeat: no-repeat !important;">
+        <div class="row text-light w-50 m-auto text-center">
+            <h1>Un gran titre ici pour tout et ni'importe quoi qui soit important</h1>
         </div>
 
-        <div class="row">
-            <div class="col-md-6 d-flex justify-content-center mt-5">
-                <a  href="tech.html" class="btn tech text-light btn-lg ">Maintenance reseau</a>
+        <div class="row text-light w-50 m-auto text-center">
+            <small class="my-4">Un gran titre ici pour tout et ni'importe quoi qui soit important</small>
+        </div>
+        
+        <div class="container m-4">
+            <div class="row">
+                <div class="col-md-3 ">
+                  <div class="card bg-warning arrondi">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <a href="#" class="btn">Go somewhere</a>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="card bg-warning arrondi">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="card bg-warning arrondi">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <div class="card bg-warning arrondi">
+                    <div class="card-body">
+                      <h5 class="card-title">Special title treatment</h5>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                      <a href="#" class="btn">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div class="col-md-6 d-flex justify-content-center mt-5">
-                <a  href="agro.html" class="btn agro text-light  btn-lg">Agro Industriel</a>
+            <div class="row text-light w-50 m-auto p-5">
+                <a class="button_large btn m-auto" href="">Quelque chose ici aussi</a>
             </div>
         </div>
+        
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
